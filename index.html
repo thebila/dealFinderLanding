@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DealFinder helps shoppers compare products and spot better value before they buy." />
+  <meta name="theme-color" content="#0a0f1e" />
+  <title>DealFinder — Find Better Deals, Faster</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="DealFinder home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#77f7d4"/>
+                <stop offset="100%" stop-color="#5d8cff"/>
+              </linearGradient>
+            </defs>
+            <path d="M11 15.5A4.5 4.5 0 0 1 15.5 11H33l20 20-18 18-20-20V15.5Z" fill="url(#g)"/>
+            <circle cx="22" cy="22" r="4.25" fill="#07101d"/>
+            <path d="M26.5 38.5 33 45l14-14" fill="none" stroke="#07101d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>DealFinder</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#guides">Guides</a>
+        <a href="#about">About</a>
+      </div>
+
+      <a class="btn btn-small btn-ghost" href="#coming-soon">Chrome Extension</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> Smarter shopping research</div>
+        <h1>Find the better deal <em>before</em> you buy.</h1>
+        <p class="hero-text">
+          DealFinder helps online shoppers compare product value, review key details,
+          and make more informed buying decisions without jumping between endless tabs.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#coming-soon">Get DealFinder</a>
+          <a class="btn btn-secondary" href="#how">See how it works</a>
+        </div>
+
+        <div class="trust-row">
+          <span>✓ Simple comparisons</span>
+          <span>✓ Shopper-first insights</span>
+          <span>✓ No confusing dashboards</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="DealFinder product comparison preview">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+
+        <div class="browser-card">
+          <div class="browser-top">
+            <div class="dots"><i></i><i></i><i></i></div>
+            <div class="url-bar">shop.example.com/product</div>
+          </div>
+
+          <div class="product-shell">
+            <div class="product-thumb">
+              <svg viewBox="0 0 120 92" aria-hidden="true">
+                <rect x="20" y="13" width="80" height="54" rx="8" fill="#17243a"/>
+                <rect x="26" y="19" width="68" height="42" rx="5" fill="#263753"/>
+                <path d="M40 78h40" stroke="#6c7d9d" stroke-width="7" stroke-linecap="round"/>
+                <path d="M53 67v11M67 67v11" stroke="#6c7d9d" stroke-width="5" stroke-linecap="round"/>
+              </svg>
+            </div>
+
+            <div class="product-info">
+              <span class="muted">Product comparison</span>
+              <strong>27” QHD Monitor</strong>
+              <div class="mini-stars">★★★★★ <span>4.6</span></div>
+            </div>
+          </div>
+
+          <div class="deal-panel">
+            <div class="deal-label">
+              <span class="pulse"></span>
+              Better value found
+            </div>
+
+            <div class="deal-row">
+              <div>
+                <small>Current option</small>
+                <b>$289</b>
+              </div>
+              <div class="arrow">→</div>
+              <div>
+                <small>Better value</small>
+                <b class="accent">$249</b>
+              </div>
+            </div>
+
+            <div class="score">
+              <div class="score-head">
+                <span>Value score</span>
+                <strong>91/100</strong>
+              </div>
+              <div class="score-track"><span style="width:91%"></span></div>
+            </div>
+          </div>
+
+          <div class="insight-grid">
+            <div><b>✓</b><span>Strong rating</span></div>
+            <div><b>✓</b><span>Better price</span></div>
+            <div><b>✓</b><span>Good specs</span></div>
+            <div><b>✓</b><span>Clear comparison</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker-wrap" aria-label="DealFinder benefits">
+      <div class="ticker container">
+        <span>COMPARE</span><i>•</i>
+        <span>RESEARCH</span><i>•</i>
+        <span>DISCOVER</span><i>•</i>
+        <span>DECIDE</span><i>•</i>
+        <span>SAVE TIME</span>
+      </div>
+    </section>
+
+    <section id="how" class="section container">
+      <div class="section-heading">
+        <span class="kicker">How it works</span>
+        <h2>From product page to better decision.</h2>
+        <p>DealFinder is designed to make comparison research faster and easier to understand.</p>
+      </div>
+
+      <div class="steps">
+        <article class="step-card">
+          <span class="step-no">01</span>
+          <h3>Browse normally</h3>
+          <p>Open a product you are already considering on a supported shopping website.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-no">02</span>
+          <h3>Review the comparison</h3>
+          <p>DealFinder highlights useful product details, pricing context, and comparable options.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-no">03</span>
+          <h3>Choose with context</h3>
+          <p>Use the information to decide whether the current option is actually worth buying.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="features" class="section section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <span class="kicker">Built for practical shopping</span>
+          <h2>Useful signals. Less noise.</h2>
+          <p>No fake countdowns, no pressure tactics, and no promise that the cheapest option is always the best.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-large">
+            <div class="feature-icon">↔</div>
+            <h3>Side-by-side value comparison</h3>
+            <p>Compare important product signals in a cleaner format so differences are easier to spot.</p>
+            <div class="comparison-bars">
+              <div><span>Price value</span><i><b style="width:88%"></b></i></div>
+              <div><span>Customer rating</span><i><b style="width:81%"></b></i></div>
+              <div><span>Feature match</span><i><b style="width:93%"></b></i></div>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">⌕</div>
+            <h3>Product research</h3>
+            <p>Focus on meaningful information instead of opening multiple product pages manually.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">◇</div>
+            <h3>Clearer decisions</h3>
+            <p>DealFinder is designed to support your decision, not make the purchase decision for you.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Fast browser workflow</h3>
+            <p>Get useful context while you shop instead of switching between separate research tools.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">◉</div>
+            <h3>Transparent recommendations</h3>
+            <p>When links are affiliate links, DealFinder clearly discloses that relationship.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="guides" class="section container">
+      <div class="section-heading section-heading-row">
+        <div>
+          <span class="kicker">Shopping guides</span>
+          <h2>Better deals start with better questions.</h2>
+        </div>
+        <p>Original educational content for evaluating products before buying.</p>
+      </div>
+
+      <div class="guide-grid">
+        <article class="guide-card">
+          <span>Guide 01</span>
+          <h3>How to tell whether a “discount” is actually good value</h3>
+          <p>A low price is only useful when the product still meets your real needs. Compare features, warranty, seller reputation, and total cost before buying.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 02</span>
+          <h3>What to compare when buying a laptop online</h3>
+          <p>Start with processor class, memory, storage, display quality, battery expectations, repairability, and the return policy—not just the headline price.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 03</span>
+          <h3>How to evaluate customer ratings properly</h3>
+          <p>Look beyond the average star score. Review count, recent complaints, repeated defects, and seller-specific feedback can reveal more than the headline rating.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 04</span>
+          <h3>Budget headphones: which specs actually matter?</h3>
+          <p>Comfort, microphone quality, connection type, battery life, codec support, and return policy are often more important than marketing terms.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 05</span>
+          <h3>Buying an SSD without overpaying</h3>
+          <p>Check interface, capacity, endurance, warranty, and whether your device can use the advertised speed before paying for a premium model.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 06</span>
+          <h3>Monitor shopping checklist</h3>
+          <p>Resolution, panel type, refresh rate, ports, stand adjustment, pixel policy, and your actual workload matter more than a long specification sheet.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 07</span>
+          <h3>How to compare two similar products</h3>
+          <p>Separate must-have requirements from nice-to-have features, then compare total cost and real-world compromises instead of counting specifications.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 08</span>
+          <h3>How to spot a weak online deal</h3>
+          <p>Be cautious when a deal relies on vague model numbers, unclear warranty terms, unusually high shipping, or a seller with limited history.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 09</span>
+          <h3>Gaming mouse buying guide</h3>
+          <p>Shape, weight, sensor consistency, button placement, software support, and grip style usually matter more than extreme DPI numbers.</p>
+        </article>
+        <article class="guide-card">
+          <span>Guide 10</span>
+          <h3>Mechanical keyboard buying checklist</h3>
+          <p>Choose layout, switch feel, hot-swap support, connectivity, keycap compatibility, and build quality before focusing on lighting effects.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div>
+          <span class="kicker">About DealFinder</span>
+          <h2>Built to reduce shopping guesswork.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            DealFinder is an independent shopping-research project focused on helping users
+            understand product value more clearly. It is not a marketplace and does not sell
+            products directly.
+          </p>
+          <p>
+            Product availability, prices, ratings, and seller information can change at any time.
+            Always confirm final details on the retailer's website before purchasing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="coming-soon" class="section container">
+      <div class="cta-card">
+        <div>
+          <span class="kicker">Chrome extension</span>
+          <h2>DealFinder is getting ready for launch.</h2>
+          <p>The extension is currently being prepared for public release. This page will be updated with the official Chrome Web Store link when available.</p>
+        </div>
+        <div class="status-pill"><span></span> In development</div>
+      </div>
+    </section>
+
+    <section class="affiliate-note container">
+      <strong>Affiliate Disclosure</strong>
+      <p>
+        DealFinder may use affiliate links. If you make a qualifying purchase through an affiliate link,
+        we may earn a commission at no additional cost to you. As an Amazon Associate, we earn from qualifying purchases.
+      </p>
+      <a href="affiliate-disclosure.html">Read full disclosure →</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark small" aria-hidden="true">
+            <svg viewBox="0 0 64 64">
+              <path d="M11 15.5A4.5 4.5 0 0 1 15.5 11H33l20 20-18 18-20-20V15.5Z" fill="#77f7d4"/>
+              <circle cx="22" cy="22" r="4.25" fill="#07101d"/>
+            </svg>
+          </span>
+          <span>DealFinder</span>
+        </a>
+        <p>Compare smarter. Shop with context.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#how">How it works</a>
+        <a href="#guides">Guides</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> DealFinder. All rights reserved.</span>
+      <span>Independent shopping research tool.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
